@@ -1,0 +1,302 @@
+# Jessica Pattison White
+#
+
+#MSC computer Science
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_1> .
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.L4All.com/qualif> <http://www.L4All.com/MSc_Computer_Science> . 
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.L4All.com/epStart> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.L4All.com/epEnd> "2012-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# you can use <http://www.L4All.com/MSc_Computer_Science> for all the MSc in computer Science
+<http://www.L4All.com/MSc_Computer_Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Computer_Science> . 
+<http://www.L4All.com/MSc_Computer_Science> <http://www.L4All.com/level> <http://www.L4All.com/MSc> . # you can use this for all MSc
+<http://www.L4All.com/MSc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/NQF_Level_7> .
+
+#BSc Psychology
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_2> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/qualif> <http://www.L4All.com/BSc_Psychology> . # you can use this for all BSc in Psychology
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/epStart> "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/epEnd> "2010-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/BSc_Psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Psychology> .
+<http://www.L4All.com/BSc_Psychology> <http://www.L4All.com/level> <http://www.L4All.com/BSc> . # you can use this for all BSc
+<http://www.L4All.com/BSc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/NQF_Level_6> .
+
+## Recruitment Consultant
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_3> .
+<http://www.L4All.com/Alumni_L1_Episode_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_3> <http://www.L4All.com/job> <http://www.L4All.com/Recruitment_Consultant> . # you can use this for all Recruitment Consultant
+<http://www.L4All.com/Recruitment_Consultant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Management_Consultants,_Actuaries,_Economists_and_Statisticians> .
+<http://www.L4All.com/Recruitment_Consultant> <http://www.L4All.com/sector> <http://www.L4All.com/Professional,_scientific_and_technical_activities> .
+<http://www.L4All.com/Alumni_L1_Episode_3> <http://www.L4All.com/epStart> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_3> <http://www.L4All.com/epEnd> "2014-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# Sales Assistant
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_4> .
+<http://www.L4All.com/Alumni_L1_Episode_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_4> <http://www.L4All.com/job> <http://www.L4All.com/Sales_Assistant> . # you can use this for all Sales Assistant
+<http://www.L4All.com/Sales_Assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Sales_and_Retail_Assistants> .
+<http://www.L4All.com/Sales_Assistant> <http://www.L4All.com/sector> <http://www.L4All.com/Other_service_activities> .
+<http://www.L4All.com/Alumni_L1_Episode_4> <http://www.L4All.com/epStart> "2013-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_4> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# Subsidary Tutor
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_5> .
+<http://www.L4All.com/Alumni_L1_Episode_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_5> <http://www.L4All.com/job> <http://www.L4All.com/Subsidary_Tutor> .
+<http://www.L4All.com/Subsidary_Tutor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Education_Officers,_School_Inspectors> .
+<http://www.L4All.com/Subsidary_Tutor> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L1_Episode_5> <http://www.L4All.com/epStart> "2012-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_5> <http://www.L4All.com/epEnd> "2013-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# Demonstrator
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_6> .
+<http://www.L4All.com/Alumni_L1_Episode_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_6> <http://www.L4All.com/job> <http://www.L4All.com/Demonstrator> .
+<http://www.L4All.com/Demonstrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Education_Officers,_School_Inspectors> .
+<http://www.L4All.com/Demonstrator> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L1_Episode_6> <http://www.L4All.com/epStart> "2012-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_6> <http://www.L4All.com/epEnd> "2013-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Research Apprentice 
+<http://www.L4All.com/Alumni_L1> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L1_Episode_7> .
+<http://www.L4All.com/Alumni_L1_Episode_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L1_Episode_7> <http://www.L4All.com/job> <http://www.L4All.com/Research_Apprentice> .
+<http://www.L4All.com/Research_Apprentice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Research_Professionals> .
+<http://www.L4All.com/Research_Apprentice> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L1_Episode_7> <http://www.L4All.com/epStart> "2009-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_7> <http://www.L4All.com/epEnd> "2010-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+
+## Katya Johnston
+# Accounting/AdminAssistant 
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_1> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.L4All.com/job> <http://www.L4All.com/Accounting/AdminAssistant> .
+<http://www.L4All.com/Accounting/AdminAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Accounts_and_Wages_Clerks,_Book-keepers,_other_Clerks> .
+<http://www.L4All.com/Accounting/AdminAssistant> <http://www.L4All.com/sector> <http://www.L4All.com/Financial_and_insurance_activities> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.L4All.com/epStart> "2010-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.L4All.com/epEnd> "2011-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+# Admin/ Finance Assistant 
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_2> .
+<http://www.L4All.com/Alumni_L2_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_2> <http://www.L4All.com/job> <http://www.L4All.com/Admin/FinanceAssistant> .
+<http://www.L4All.com/Admin/FinanceAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Accounts_and_Wages_Clerks,_Book-keepers,_other_Clerks> .
+<http://www.L4All.com/Admin/FinanceAssistant> <http://www.L4All.com/sector> <http://www.L4All.com/Financial_and_insurance_activities> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.L4All.com/epStart> "2007-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_1> <http://www.L4All.com/epEnd> "2009-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Fitness Instructor/Personal Trainer
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_3> .
+<http://www.L4All.com/Alumni_L2_Episode_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_3> <http://www.L4All.com/job> <http://www.L4All.com/FitnessInstructor/PersonalTrainer> .
+<http://www.L4All.com/FitnessInstructor/PersonalTrainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Healthcare_and_Related_Personal_Services> .
+<http://www.L4All.com/FitnessInstructor/PersonalTrainer> <http://www.L4All.com/sector> <http://www.L4All.com/Human_health_and_social_work_activities> .
+<http://www.L4All.com/Alumni_L2_Episode_3> <http://www.L4All.com/epStart> "2006-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_3> <http://www.L4All.com/epEnd> "2006-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#PersonalTrainer/GymInstructor and account assistant 
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_4> .
+<http://www.L4All.com/Alumni_L2_Episode_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_4> <http://www.L4All.com/job> <http://www.L4All.com/FitnessInstructor/PersonalTrainer/GymInstructor/AccountAssistant> .
+<http://www.L4All.com/FitnessInstructor/PersonalTrainer/GymInstructor/AccountAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Healthcare_and_Related_Personal_Services> .
+<http://www.L4All.com/FitnessInstructor/PersonalTrainer/GymInstructor/AccountAssistant> <http://www.L4All.com/sector> <http://www.L4All.com/Human_health_and_social_work_activities> .
+<http://www.L4All.com/Alumni_L2_Episode_4> <http://www.L4All.com/epStart> "2003-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_4> <http://www.L4All.com/epEnd> "2005-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Classroom Assistant 
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_5> .
+<http://www.L4All.com/Alumni_L2_Episode_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_5> <http://www.L4All.com/job> <http://www.L4All.com/Classroom_Assistant> .
+<http://www.L4All.com/Classroom_Assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Education_Officers,_School_Inspectors> .
+<http://www.L4All.com/Classroom_Assistant> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L2_Episode_5> <http://www.L4All.com/epStart> "2003-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_5> <http://www.L4All.com/epEnd> "2003-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Master of Science in computer Science 
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_6> .
+<http://www.L4All.com/Alumni_L2_Episode_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_6> <http://www.L4All.com/qualif> <http://www.L4All.com/MSc_Computer_Science> .
+<http://www.L4All.com/Alumni_L2_Episode_6> <http://www.L4All.com/epStart> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_6> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#BSc in Business
+<http://www.L4All.com/Alumni_L2> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L2_Episode_7> .
+<http://www.L4All.com/Alumni_L2_Episode_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L2_Episode_7> <http://www.L4All.com/qualif> <http://www.L4All.com/BSc_Business> .
+<http://www.L4All.com/BSc_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Business_Studies> .
+<http://www.L4All.com/BSc_Business> <http://www.L4All.com/level> <http://www.L4All.com/BSc> .
+<http://www.L4All.com/Alumni_L2_Episode_7> <http://www.L4All.com/epStart> "2006-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L2_Episode_7> <http://www.L4All.com/epEnd> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+##Aamna Toor
+
+#IT Business Management
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_1> .
+<http://www.L4All.com/Alumni_L3_Episode_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_1> <http://www.L4All.com/job> <http://www.L4All.com/IT_Business_Management> .
+<http://www.L4All.com/IT_Business_Management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Management_Consultants,_Actuaries,_Economists_and_Statisticians> .
+<http://www.L4All.com/IT_Business_Management> <http://www.L4All.com/sector> <http://www.L4All.com/Financial_and_insurance_activities> .
+<http://www.L4All.com/Alumni_L3_Episode_1> <http://www.L4All.com/epStart> "2014-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_1> <http://www.L4All.com/epEnd> "2014-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Business Consultant
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_2> .
+<http://www.L4All.com/Alumni_L3_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_2> <http://www.L4All.com/job> <http://www.L4All.com/Business_Consultant> .
+<http://www.L4All.com/Business_Consultant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Management_Consultants,_Actuaries,_Economists_and_Statisticians> .
+<http://www.L4All.com/Business_Consultant> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L3_Episode_2> <http://www.L4All.com/epStart> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_2> <http://www.L4All.com/epEnd> "2014-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Examiner/Marker
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_3> .
+<http://www.L4All.com/Alumni_L3_Episode_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_3> <http://www.L4All.com/job> <http://www.L4All.com/Examiner_Marker> .
+<http://www.L4All.com/Examiner_Marker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Education_Officers,_School_Inspectors> .
+<http://www.L4All.com/Examiner_Marker> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L3_Episode_3> <http://www.L4All.com/epStart> "2013-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_3> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Student Developer (Placement)
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_4> .
+<http://www.L4All.com/Alumni_L3_Episode_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_4> <http://www.L4All.com/job> <http://www.L4All.com/Student_Developer_Placement> .
+<http://www.L4All.com/Student_Developer_Placement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Education_Officers,_School_Inspectors> .
+<http://www.L4All.com/Student_Developer_Placement> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L3_Episode_4> <http://www.L4All.com/epStart> "2011-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_4> <http://www.L4All.com/epEnd> "2012-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Mathematics Teacher
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_5> .
+<http://www.L4All.com/Alumni_L3_Episode_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_5> <http://www.L4All.com/job> <http://www.L4All.com/Mathematics_Teacher> .
+<http://www.L4All.com/Mathematics_Teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Teaching_Professionals> .
+<http://www.L4All.com/Mathematics_Teacher> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L3_Episode_5> <http://www.L4All.com/epStart> "2010-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_5> <http://www.L4All.com/epEnd> "2011-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#MSc Business
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_6> .
+<http://www.L4All.com/Alumni_L3_Episode_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_6> <http://www.L4All.com/qualif> <http://www.L4All.com/MSc_Business> . 
+<http://www.L4All.com/MSc_Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Business_Studies> . 
+<http://www.L4All.com/MSc_Business> <http://www.L4All.com/level> <http://www.L4All.com/MSc> . 
+<http://www.L4All.com/Alumni_L3_Episode_6> <http://www.L4All.com/epStart> "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_6> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#BSc Business
+<http://www.L4All.com/Alumni_L3> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L3_Episode_7> .
+<http://www.L4All.com/Alumni_L3_Episode_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L3_Episode_7> <http://www.L4All.com/qualif> <http://www.L4All.com/BSc_Business> .
+<http://www.L4All.com/Alumni_L3_Episode_7> <http://www.L4All.com/epStart> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L3_Episode_7> <http://www.L4All.com/epEnd> "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+##Azeem Ilyas
+
+#Head Developer
+<http://www.L4All.com/Alumni_L4> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L4_Episode_1> .
+<http://www.L4All.com/Alumni_L4_Episode_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L4_Episode_1> <http://www.L4All.com/job> <http://www.L4All.com/Head_Developer> . 
+<http://www.L4All.com/Head_Developer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Software_Professionals> .
+<http://www.L4All.com/Head_Developer> <http://www.L4All.com/sector> <http://www.L4All.com/Information_and_communication> .
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.L4All.com/epStart> "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_1> <http://www.L4All.com/epEnd> "2013-00-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Freelancer Developer
+<http://www.L4All.com/Alumni_L4> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L4_Episode_2> .
+<http://www.L4All.com/Alumni_L4_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L4_Episode_2> <http://www.L4All.com/job> <http://www.L4All.com/Freelancer_Developer> . 
+<http://www.L4All.com/Freelancer_Developer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Software_Professionals> .
+<http://www.L4All.com/Freelancer_Developer> <http://www.L4All.com/sector> <http://www.L4All.com/Information_and_communication> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/epStart> "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/epEnd> "2010-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#BSc Computer Science
+<http://www.L4All.com/Alumni_L4> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L4_Episode_3> .
+<http://www.L4All.com/Alumni_L4_Episode_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L4_Episode_3> <http://www.L4All.com/qualif> <http://www.L4All.com/BSc_Computer_Science> .
+<http://www.L4All.com/BSc_Computer_Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Computer_Science> .
+<http://www.L4All.com/BSc_Computer_Science> <http://www.L4All.com/level> <http://www.L4All.com/BSc> .
+<http://www.L4All.com/Alumni_L4_Episode_3> <http://www.L4All.com/epStart> "2010-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L4_Episode_3> <http://www.L4All.com/epEnd> "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+##Alexios Mylonas 
+
+#Research Assistant 
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_1> .
+<http://www.L4All.com/Alumni_L5_Episode_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_1> <http://www.L4All.com/job> <http://www.L4All.com/Research_Assistant> .
+<http://www.L4All.com/Research_Assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Research_Professionals> .
+<http://www.L4All.com/Research_Assistant> <http://www.L4All.com/sector> <http://www.L4All.com/Professional,_scientific_and_technical_activities> .
+<http://www.L4All.com/Alumni_L5_Episode_1> <http://www.L4All.com/epStart> "2009-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_1> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Teaching Assistant 
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_2> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.L4All.com/job> <http://www.L4All.com/Teaching_Assistant> .
+<http://www.L4All.com/Teaching_Assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Teaching_Professionals> .
+<http://www.L4All.com/Teaching_Assistant> <http://www.L4All.com/sector> <http://www.L4All.com/Education_sector> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.L4All.com/epStart> "2009-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#System Administrator
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_3> .
+<http://www.L4All.com/Alumni_L5_Episode_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_3> <http://www.L4All.com/job> <http://www.L4All.com/System_Administrator> .
+<http://www.L4All.com/System_Administrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/IT_Operations_Technicians> .
+<http://www.L4All.com/System_Administrator> <http://www.L4All.com/sector> <http://www.L4All.com/Information_and_communication> .
+<http://www.L4All.com/Alumni_L5_Episode_3> <http://www.L4All.com/epStart> "2010-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_3> <http://www.L4All.com/epEnd> "2012-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#Security Consultant
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_4> .
+<http://www.L4All.com/Alumni_L5_Episode_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Occupational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_4> <http://www.L4All.com/job> <http://www.L4All.com/Security_Consultant> .
+<http://www.L4All.com/Security_Consultant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/IT_Operations_Technicians> .
+<http://www.L4All.com/Security_Consultant> <http://www.L4All.com/sector> <http://www.L4All.com/Information_and_communication> .
+<http://www.L4All.com/Alumni_L5_Episode_4> <http://www.L4All.com/epStart> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_4> <http://www.L4All.com/epEnd> "2010-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#PhD Information Security
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_5> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.L4All.com/qualif> <http://www.L4All.com/PhD_Information_Security> . 
+<http://www.L4All.com/PhD_Information_Security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Information_Systems> .
+<http://www.L4All.com/PhD_Information_Security> <http://www.L4All.com/level> <http://www.L4All.com/PhD> .
+<http://www.L4All.com/PhD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/NQF_Level_8> .
+<http://www.L4All.com/Alumni_L5_Episode_2> <http://www.L4All.com/epStart> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L1_Episode_2> <http://www.L4All.com/epEnd> "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#MSc in Information Security
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_6> .
+<http://www.L4All.com/Alumni_L5_Episode_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_6> <http://www.L4All.com/qualif> <http://www.L4All.com/MSc_Infomration_Security> . 
+<http://www.L4All.com/MSc_Infomration_Security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Information_Systems> .
+<http://www.L4All.com/MSc_Infomration_Security> <http://www.L4All.com/level> <http://www.L4All.com/MSc> .
+<http://www.L4All.com/Alumni_L5_Episode_6> <http://www.L4All.com/epStart> "2007-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_6> <http://www.L4All.com/epEnd> "2008-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+#BSc in Computer Science
+<http://www.L4All.com/Alumni_L5> <http://www.L4All.com/learnerEpisode> <http://www.L4All.com/Alumni_L5_Episode_7> .
+<http://www.L4All.com/Alumni_L5_Episode_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Educational_Episode> .
+<http://www.L4All.com/Alumni_L5_Episode_7> <http://www.L4All.com/qualif> <http://www.L4All.com/BSc_Computer_Science> .
+<http://www.L4All.com/BSc_Computer_Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.L4All.com/Computer_Science> . 
+<http://www.L4All.com/MSc_Computer_Science> <http://www.L4All.com/level> <http://www.L4All.com/BSc> . 
+<http://www.L4All.com/Alumni_L5_Episode_7> <http://www.L4All.com/epStart> "2003-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.L4All.com/Alumni_L5_Episode_7> <http://www.L4All.com/epEnd> "2007-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+
+
+
+
+
+
+
+
+
+
+

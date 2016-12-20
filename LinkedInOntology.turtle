@@ -1,0 +1,233 @@
+@prefix : <http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn> .
+
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#glossary
+:glossary rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#atInstitution
+:atInstitution rdf:type owl:ObjectProperty ;
+               rdfs:domain :CVItem ;
+               rdfs:range :Institution .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#atTime
+:atTime rdf:type owl:ObjectProperty ;
+        rdfs:domain :CVItem ;
+        rdfs:range <http://www.w3.org/2006/time#Interval> .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#fromSchool
+:fromSchool rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :atInstitution ;
+            rdfs:domain :EducationItem ;
+            rdfs:range :School .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasCVItem
+:hasCVItem rdf:type owl:ObjectProperty ;
+           rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+           rdfs:range :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasCertification
+:hasCertification rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :hasCVItem ;
+                  rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+                  rdfs:range :CertificationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasDegreeTitle
+:hasDegreeTitle rdf:type owl:ObjectProperty ;
+                rdfs:domain :Degree ;
+                rdfs:range :DegreeTitle .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasEducation
+:hasEducation rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :hasCVItem ;
+              rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+              rdfs:range :EducationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasExperience
+:hasExperience rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasCVItem ;
+               rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+               rdfs:range :ExperienceItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasSkill
+:hasSkill rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+          rdfs:range :Skill .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#inSpace
+:inSpace rdf:type owl:ObjectProperty ;
+         rdfs:domain :CVItem ;
+         rdfs:comment "will have range on Geo ontology" .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ofField
+:ofField rdf:type owl:ObjectProperty ;
+         rdfs:domain :EducationItem ;
+         rdfs:range :FieldOfStudy .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#partecipatedInProject
+:partecipatedInProject rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :hasCVItem ;
+                       rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+                       rdfs:range :ProjectItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#withRole
+:withRole rdf:type owl:ObjectProperty ;
+          rdfs:domain :ExperienceItem ;
+          rdfs:range :Role .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasHonor/Award
+:hasHonor/Award rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasCVItem ;
+                rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+                rdfs:range :HonorOrAwardItem .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#degreeGrade
+:degreeGrade rdf:type owl:DatatypeProperty ;
+             rdfs:domain :EducationItem ;
+             rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#degreeTitle
+:degreeTitle rdf:type owl:DatatypeProperty ;
+             rdfs:domain :EducationItem ;
+             rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#memberSubtitle
+:memberSubtitle rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+                rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#summary
+:summary rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> ;
+         rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#CVItem
+:CVItem rdf:type owl:Class ;
+        :glossary "A CVitem is an item representing an event of the member's (Class) curriculum vitae. Each CVItem has the Institution (Class) which is where the event has taken place, and an Interval (Class) representing the time interval of the event. " .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#CertificationItem
+:CertificationItem rdf:type owl:Class ;
+                   rdfs:subClassOf :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Degree
+:Degree rdf:type owl:Class ;
+        rdfs:subClassOf :EducationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#DegreeTitle
+:DegreeTitle rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#EducationItem
+:EducationItem rdf:type owl:Class ;
+               rdfs:subClassOf :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ExperienceItem
+:ExperienceItem rdf:type owl:Class ;
+                rdfs:subClassOf :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#FieldOfStudy
+:FieldOfStudy rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#GeoLocation
+:GeoLocation rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#HonorOrAwardItem
+:HonorOrAwardItem rdf:type owl:Class ;
+                  rdfs:subClassOf :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Institution
+:Institution rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#MOOC
+:MOOC rdf:type owl:Class ;
+      rdfs:subClassOf :CertificationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ProfessionalCourse
+:ProfessionalCourse rdf:type owl:Class ;
+                    rdfs:subClassOf :CertificationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ProjectItem
+:ProjectItem rdf:type owl:Class ;
+             rdfs:subClassOf :CVItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Role
+:Role rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#School
+:School rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#SelfStudy
+:SelfStudy rdf:type owl:Class ;
+           rdfs:subClassOf :EducationItem .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Skill
+:Skill rdf:type owl:Class ;
+       :glossary "A particular ability of a LinkedIn Member (Class). " .
+
+
+###  http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member
+<http://www.semanticweb.org/mirko/ontologies/2016/1/untitled-ontology-2#Member> rdf:type owl:Class ;
+                                                                                :glossary "A LinkedIn member. Each member has a memberSubtitle (DataProperty), a Summary (DataProperty), and a set of CVItems (Class) and Skills (Class). These elements describe the member's Curriculum Vitae." .
+
+
+###  http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi

@@ -1,0 +1,13 @@
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#CVItem> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#EducationItem> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Educational_Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Degree> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/University_Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ExperienceItem> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Occupational_Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Member> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Learner> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#EducationItem> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Educational_Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#ExperienceItem> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Occupational_Episode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#FieldOfStudy> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Subject> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#Role> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.L4All.com/Occupation> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#hasCVItem> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.L4All.com/learnerEpisode> .
+<http://www.semanticweb.org/mirko/ontologies/2016/1/LinkedIn#withRole> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.L4All.com/job> .
+
+

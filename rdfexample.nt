@@ -1,0 +1,19 @@
+<ciao> <pippo> <puppa> .
+
+<ciao> <http://www.w3.org/2002/07/owl#sameAs> <miao> .
+
+_:B17dedfe1X3A15903ae6222X3AX2D7dbe <http://www.w3.org/2002/07/owl#sameAs> <ciao> .
+
+<pippo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <pippone> .
+
+<lello> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <uomo> .
+
+<uomo> <http://www.w3.org/2002/07/owl#equivalentClass> <omo> .
+
+<marco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <omo> .
+
+<parla> <http://www.w3.org/2002/07/owl#equivalentProperty> <abla> .
+
+<marco> <abla> <italiano> .
+
+<abla> <http://www.w3.org/2000/01/rdf-schema#domain> <essere_umano> .
